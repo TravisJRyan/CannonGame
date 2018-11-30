@@ -1,0 +1,38 @@
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <title>Cannon Game</title>
+</head>
+
+<body onload="startGame()" style="background-color: lightgray; background-repeat: repeat;">
+
+    <h1 class="text-center"> Terry and Travis's Algorithm Adventure </h1>
+    <container>
+        <row class="text-center">
+            <h4> What is the runtime of: </h4>
+            <h3 id="currentAlgorithm">Quick Sort</h3>
+        </row>
+    </container>
+
+    <div class="d-flex justify-content-center" id="gameBoard"></div>
+
+    <div class="text-center">
+        <h4 id="targetsHit">Correct Hits: 0</h4>
+        <h4 id="ballCount">Remaining Balls: 10</h4>
+    </div>
+
+    <div class="text-center">
+        <h3 id="message">Hit the target!</h3>
+        <button type="button" class="btn btn-primary" onclick="startOver()">Start Over</button>
+    </div>
+
+    <!-- JavaScript imports for Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+</body>
